@@ -26,6 +26,7 @@ Your web page should contain:
 1. Add content to your HTML file including all the required sections listed
 1. Add CSS for styling for your page and some layout. See below for styling detail
 1. **Commit** your work as you go with a message that describes the purpose (why?) of the commit.
+
 ### Styles
 1. Choose one or two fonts for your page. Often the headers and body content use separate fonts:
     * https://fonts.google.com/
