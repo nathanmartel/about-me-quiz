@@ -61,10 +61,11 @@ Add an `app.js` file that is imported via a `<script>` tag in `index.html`.
     - The element to which you will write the quiz results
 1. Add event listeners:
     - Subscribe to the button's click event using `addEventListener`:
-    ```js
+    ``js
     button.addEventListener('click', () => {
     });
-    Add code in the button click handler function:
+    ``
+    - Add code in the button click handler function:
 1. Ask the user's name. Their name should be used in subsequent prompts
 1. Confirm that the user really wants to take the quiz. If not, `return` from your function.
 1. Three YES/NO questions about you. Use your `isYes` function to determine the user's
@@ -75,9 +76,10 @@ response, then compare to the correct answer. Track number of correct responses.
   - Add a class to style the result differently based on
   good or bad score
   - Include a percentage, without decimal places.
+
 ## Points Break Down
 Looking For | Points (10)
-:--|--:
+| --- | ---: |
 Proper HTML using Semantic Element choices  | 1
 CSS fonts, colors and images used consciously and correctly | 1
 Tested isYes Function | 2
