@@ -43,6 +43,10 @@ li {
     margin-bottom: 5rem;
 }
 
+#quiz-results img {
+    width: 400px;
+}
+
 #content {
     position: relative;
     top: 30px;
