@@ -1,0 +1,123 @@
+* { box-sizing: border-box; }
+
+h1, h2, h3 {
+    color: #8d1995;
+}
+
+header h1, header h2 {
+    font-family: 'Bungee Shade', cursive;
+}
+
+header h1 { 
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+header h2 { 
+    font-size: 2rem;
+    color: #ea1213;
+    margin-top: .2rem;
+}
+
+body {
+    background-color: #f9f1fa;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    color: #444;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+#quiz-results {
+    display: none;
+    position: relative;
+    top: 50px;
+    left: 40%;
+    width: 60%;
+    padding-right: 40px;
+    margin-bottom: 5rem;
+}
+
+#quiz-results img {
+    width: 400px;
+}
+
+#content {
+    position: relative;
+    top: 30px;
+    left: 40%;
+    width: 60%;
+    padding-right: 40px;
+}
+#big-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 40%;
+    margin-right: 30px;
+    padding: 30px;
+}
+#big-image img {
+    width: 100%;
+}
+
+aside {
+    font-size: 1.5rem;
+    font-family: 'Bungee Shade', cursive;
+    color: #8d1995;
+    background-color: #eedaf1; 
+    padding: 40px;
+    margin: 2rem 0;
+    display: inline-block;
+}
+
+cite {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    display: block;
+    font-size: 1rem;
+    margin-top: .5rem;
+}
+
+.horiz-rule {
+    margin: 3rem 0;
+}
+
+.btn {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn-purple {
+    background: #8d1995;
+    color: #fff;
+    padding: 25px 60px;
+    overflow: hidden;
+}
+
+.btn-purple:hover {
+    background: #78157f;
+}
+
+#button-section {
+    margin-bottom: 5rem;
+}
